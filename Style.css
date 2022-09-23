@@ -1,0 +1,63 @@
+body{
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    color: #ffffff;
+    background: linear-gradient( rgb(108, 14, 14) ,#ffffff );
+    
+}
+h1 , h2 , h3 , h4{
+    text-shadow: 0 0 2px black;
+}
+#Marilyn-name{
+    margin-top: 50px;
+}
+#bday-age , #bday-date{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Marilyn-img{
+    width: 200px;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+.gif-title,.gif-hover{
+    margin: 0 auto;
+}
+.gif{
+    margin: 60px auto;
+}
+.gift-section{
+    width: 400px;
+    height: 500px;
+    border: 5px solid #ffffff;
+    margin: 20px auto;
+    background-image: url("images/GIFt.jpg");
+    background-size: cover;
+}
+#gift-section-scene:hover{
+
+    background-image: url("https://media.giphy.com/media/7yIj6AcVWjX0I/giphy.gif");
+
+}
+#gift-section-teenage:hover{
+
+    background-image:url("images/Teenage.jpg")
+
+}
+#gift-section-queen:hover{
+
+    background-image:url("images/Marilyn-queen.jpg")
+
+}
+#gift-section-badass:hover{
+
+    background-image:url("https://media.giphy.com/media/zjwTGoSs9zglO/giphy.gif")
+    
+}
